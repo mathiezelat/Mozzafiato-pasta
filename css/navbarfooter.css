@@ -88,7 +88,7 @@
         /* Footer */
         .footer{
             display: flex;
-            margin-top: 75vh;
+            margin-top: 15vh;
             background-color: var(--footer-color);
             font-family: var(--fuente-poppins);
             font-weight: 400;
@@ -178,3 +178,6 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 /*Fin de Body*/
+.contenido-container{
+    min-height: 80vh;
+}

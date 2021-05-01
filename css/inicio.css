@@ -1,0 +1,173 @@
+@media (min-width: 800px){
+.containerheader{
+    display: none;
+}}
+
+
+#davidindex{
+    height: 1077.9559326171875px;
+width: 1436.4117431640625px;
+left: 1px;
+top: -56.938812255859375px;
+border-radius: 0px;
+background: rgba(0, 0, 0, 0.0);
+
+}
+
+body{
+    background: rgb(0,215,75);
+    background: linear-gradient(180deg, rgba(0,215,75,1) 30%, rgba(255,255,255,1) 48%, rgba(255,0,0,1) 70%);
+}
+
+
+
+.containertexto{
+    text-align: center;
+}
+
+.boton{
+margin-left: 9%;
+margin-top: -140px;
+
+}
+
+
+
+footer{
+    margin-top: 150%;
+}
+
+
+
+/* header */
+header{
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    align-content: flex-start ;
+
+}
+
+.texto{
+    margin-top: -45%;
+    margin-left: 25px;
+    text-align: center;
+  width: 350px;
+  height: 1840px;
+  
+  
+    color: white;
+ 
+    
+    }
+    .texto h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 30px;
+color: #F8F8F8;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+    }
+    .texto p{
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+
+
+color: #F8F8F8;
+
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+    
+    }
+ 
+
+/*  Articulo texto */
+article h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 48px;
+color: #333333;
+}
+article p{
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+
+color: #333333;
+}
+
+/* Articulos */
+
+    article{
+        margin-top: 20%;
+       
+ display: flex;
+text-align: center;
+
+    }
+
+    .columna1{
+     
+      margin-bottom: 100px;
+    }
+    
+    .columna2{
+      
+        margin-bottom: 100px;
+       
+    }
+/*Columna 1 Izquierda */
+
+.textcololumna1 {
+    margin-top: 15%;
+}
+.imagencol1{
+    margin-top: 25%
+}
+
+
+
+/* Columna 2 derecha */
+.imagencolumna2{
+    margin-top: ;
+}
+.imagencol2{
+    margin-top: 25%
+}
+
+.textcol2{
+    margin-top: 15%;
+}
+.textcol1g2{margin-top: 25%;}
+
+
+.textcololumna1:Hover{
+    background: rgba(255, 255, 255, 0.21);
+}
+.textcol2:Hover{
+    background: rgba(255, 255, 255, 0.21);
+}
+.textcol1g2:hover{
+    background: rgba(255, 255, 255, 0.21);
+}
+
+.textocol1g2:hover{
+    background: rgba(255, 255, 255, 0.21);
+}
+
+/* Header */
+.cajita{
+    margin-top: 300px;
+}

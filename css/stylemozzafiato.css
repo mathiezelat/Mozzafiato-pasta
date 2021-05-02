@@ -7,6 +7,7 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Fin de Fuentes */
 
 
@@ -14,99 +15,71 @@
 :root {
     --fuente-poppins: 'Poppins', sans-serif;
     --fuente-raleway: 'Raleway', sans-serif;
-    --texto-menu-color: #ce2b37;
-    --texto-menu-color-current: #ed1943;
-    --texto-menu-color-hover: #ed1943;
+    --fuente-playfair: 'Playfair Display', serif;
+    --texto-card-color: #ce2b37;
+    --texto-card-color-current: #ed1943;
     --texto-titulos-color: #333;
-    --texto-contenido-color: #444;
-    --footer-color: #333;
+    --texto-titulos-color-white: #f8f8f8;
 }
 /* Fin de Variables */
-
-/* Body */
-body {
-    margin: 0;
-    font-family: var(--fuente-raleway);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-/*Fin de Body*/
-
-.mozzafiato-titulo{
-    margin: auto;
-}
-.container-img-titulo {
-    margin-top: 20px;
-    width: 80vw;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-    pointer-events: none;
-    user-select: none;
-}
 .container-img-titulo img {
-    width: 80vw;
-    height: 400px;
-    object-fit: cover;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
-.texto-titulo-mozzafiato {
-    position: absolute;
-    width: 400px;
-    top: 130px;
+.texto-titulo-card-large {
+    color: #333;
+    text-shadow: 2px 2px 200px black;
+    top: 70px;
     left:10vw;
 }
-.texto-titulo-mozzafiato h1{
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 1;
+.texto-titulo-card-large p{
+    font-size: 20px;
 }
-.texto-titulo-mozzafiato p{
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1;
+.texto-card-large h1{
+    font-family: var(--fuente-playfair);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 54px;
 }
-.mozzafiato-informacion-container{
-    margin: auto;
+.texto-card-large p{
+    font-size: 20px;
+    font-weight: 500;
 }
-.texto-mozzafiato h1{
-    margin-top: 60px;
-    font-weight: 700;
+.texto-card-large{
+    margin: 0;
+    height: 400px;
+    width: 600px;
 }
-@media screen and (max-width: 992px){
-    .container-mozzafiato{
-        width: 95vw;
-        min-height: 400px;
-        margin-top: 100px
-    }
-    .container-img-titulo {
-        width: 95vw;
-        height: 300px;
-        margin-top: 0px;
-        overflow: hidden;
-    }
-    .container-img-titulo img {
-        width: 100vw;
-        height: 300px;
-    }
-    .texto-titulo-mozzafiato {
-        position: absolute;
-        width: 300px;
-        top: 80px;
-        left:3vw;
-    }
-    .texto-titulo-mozzafiato h1{
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 1;
-    }
-    .texto-titulo-mozzafiato p{
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 1;
-    }
+.btn-escribinos{
+    padding: 12px 35px;
+    border-radius: 4px;
+    background-color: #D92109;
+    text-decoration: none;
+    color: var(--texto-titulos-color-white);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btn-escribinos:hover{
+    color: var(--texto-titulos-color-white);
+    background-color: #C20114;
+}
+.btn-contactar{
+    padding: 12px 35px;
+    border-radius: 4px;
+    background-color: #279D61;
+    text-decoration: none;
+    color: var(--texto-titulos-color-white);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btn-contactar:hover{
+    color: var(--texto-titulos-color-white);
+    background-color: #468966;
 }

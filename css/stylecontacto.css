@@ -50,23 +50,9 @@ text-align: center;
 }
 
 /* Texto de abajo  de imagenes*/
-/* contenedor 2 */
-.contenedor2{
-text-align: center;
-width: 80%;
-}
 
 /* contenedor 3 */
-.contenedor3{
-  margin: 100px;
-  text-align: center;
-    display: flex ;
-    flex-direction: row ;
-    flex-wrap: wrap ;
-    justify-content: space-around ;
-    align-items: stretch ;
-    align-content: center ;
-  }
+
 /* informacion de de contacto */
 
 article {
@@ -87,4 +73,82 @@ article h2{
 article p:hover{
   text-align: center;
   color: white;
+}
+
+/* Titulo contacto*/
+
+
+.container-titulo-page{
+  margin: auto;
+}
+.container-img-titulo {
+  margin-top: 20px;
+  width: 80vw;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+.container-img-titulo img {
+  width: 80vw;
+  height: 400px;
+  object-fit: cover;
+}
+.texto-titulo-card-large {
+  position: absolute;
+  text-decoration: none;
+  width: 400px;
+  top: 150px;
+  left:10vw;
+  color: var(--texto-titulos-color-white);
+  text-shadow: 2px 2px 40px black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.texto-titulo-card-large h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+}
+
+/*  */
+/* contenedor 2 */
+.contenedor2{
+
+  width: 730px;
+  height: 288px;
+  left: 355px;
+  top: 576px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+color: white;
+}
+.redes p{
+margin-left:5px;
+}
+
+.bi-instagram{
+  color: #D92109;
+margin-left: 5px;
+}
+.bi-facebook{
+color: #D92109;
+margin-left: 5px;
+}
+.bi-whatsapp{
+color: #D92109;
+margin-left: 5px;
+}
+.bi-youtube{
+color: #D92109;
+margin-left: 5px;
 }

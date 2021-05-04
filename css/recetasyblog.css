@@ -59,11 +59,8 @@ body {
     left:10vw;
     color: var(--texto-titulos-color-white);
     text-shadow: 2px 2px 40px black;
-    font-family: 'Poppins', sans-serif;
 }
 .texto-titulo-card-large h1{
-    font-size: 48px;
-    font-weight: 700;
     line-height: 1;
 }
 .texto-titulo-card-large p{
@@ -85,15 +82,9 @@ body {
     color: var(--texto-titulos-color);
 }
 .texto-card-large h1{
-    font-size: 48px;
-    font-weight: 600;
     line-height: 1;
-    font-family: var(--fuente-poppins);
 }
-.texto-card-large p{
-    font-size: 25px;
-    font-weight: 400;
-}
+
 .container-img-card-large{
     pointer-events: none;
     user-select: none;
@@ -157,43 +148,28 @@ body {
     background-color: #343A40;
 }
 .container-text-rb h1{
-    font-family: var(--fuente-poppins);
-    font-weight: 800;
-    font-size: 60px;
     margin-top: 24px;
 }
 .container-text-rb {
     width: 60vw;
 }
 .text-info-contain{
-    font-weight: 600;
-    font-size: 26px;
     margin-top: 24px;
     color: #333;
 }
 .text-more-info-contain{
-    font-weight: 500;
-    font-size: 24px;
     margin-top: 24px;
 }
 .text-history-contain{
-    font-size: 20px;
-    font-weight: 400;
     margin-top: 24px;
 }
 .elaborar-receta h2{
-    font-size: 40px;
-    font-weight: 700;
     margin-top: 48px;
 }
 .ingredientes-title{
-    font-size: 36px;
-    font-weight: 400;
     margin-top: 24px;
 }
 .para-ingredientes{
-    font-weight: 600;
-    font-size: 32px;
     margin-top: 24px;
     margin-bottom: -10px;
 }
@@ -201,33 +177,26 @@ body {
     list-style-image: url("../icons/016-column.svg");
 }
 .ingredientes li{
-    font-size: 40px;
     line-height: 1;
+    font-size: 42px;
 }
 .ingredientes li p{
-    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .preparacion-receta{
-    font-size: 18px;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 .preparacion-receta h6{
-    font-size: 36px;
-    font-weight: 400;
     margin-top: 42px;
     margin-bottom: 12px;
 }
 .preparacion-receta p{
-    font-size: 18px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
-.destacado-1{
-    font-size: 24px;
-    font-weight: 700;
+.disfrutalo{
     margin-top: 14px;
 }
 @media screen and (max-width:991px) {

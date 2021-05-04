@@ -35,22 +35,10 @@
     top: 70px;
     left:10vw;
 }
-.texto-titulo-card-large p{
-    font-size: 20px;
-}
-.texto-card-large h1{
-    font-family: var(--fuente-playfair);
-    font-weight: 600;
-    font-style: italic;
-    font-size: 54px;
-}
-.texto-card-large p{
-    font-size: 20px;
-    font-weight: 500;
-}
+
 .texto-card-large{
     margin: 0;
-    height: 400px;
+    min-height: 400px;
     width: 600px;
 }
 .btn-escribinos{

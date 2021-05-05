@@ -75,7 +75,7 @@ body {
 .container-card-large{
     width: 60vw;
     min-height: 400px;
-    margin-top: 60px;
+    margin-top: 50px;
     overflow: hidden;
 }
 .animation-link-hover{

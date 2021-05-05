@@ -72,6 +72,6 @@
     background-color: #468966;
 }
 .row>* {
-    padding-right: calc(var(--bs-gutter-x)/ 2) !important;
-    padding-left: calc(var(--bs-gutter-x)/ 2) !important;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
 }

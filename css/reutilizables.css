@@ -75,7 +75,7 @@ body {
 .container-card-large{
     width: 60vw;
     min-height: 400px;
-    margin-top: 100px;
+    margin-top: 60px;
     overflow: hidden;
 }
 .animation-link-hover{
@@ -163,7 +163,7 @@ body {
     .container-card-large{
         width: 80vw;
         min-height: 400px;
-        margin-top: 70px;
+        margin-top: 60px;
         overflow: hidden;
     }
 }
@@ -171,7 +171,7 @@ body {
     .container-card-large{
         width: 90vw;
         min-height: 400px;
-        margin-top: 70px;
+        margin-top: 60px;
         overflow: hidden;
     }
 }
@@ -179,7 +179,7 @@ body {
     .container-card-large{
         width: 95vw;
         min-height: 400px;
-        margin-top: 70px;
+        margin-top: 50px;
         overflow: hidden;
     }
 }
@@ -187,7 +187,7 @@ body {
     .container-card-large{
         width: 90vw;
         min-height: 400px;
-        margin-top: 70px;
+        margin-top: 50px;
         overflow: hidden;
         background-color: #f8f8f8;
     }

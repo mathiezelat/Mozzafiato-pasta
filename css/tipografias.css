@@ -45,7 +45,7 @@ h1 {
 .enfasis {
     font-size: 52px;
     font-family: var(--fuente-playfair);
-    font-weight: 600;
+    font-weight: 900;
     font-style: italic;
 }
 h2 {
@@ -76,7 +76,7 @@ h6{
 .destacado {
     font-family: var(--fuente-raleway);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 p {
     font-family: var(--fuente-raleway);
@@ -98,66 +98,83 @@ button {
     font-size: 20px;
     font-weight: 700;
 }
-@media screen and (max-width:991px) {
+/* Tablets */
+@media screen and (max-width:993px) and (min-width:576px){
     h1 {
-        font-size: 60px;
-        font-weight: 800;
-        font-family: var(--fuente-poppins);
+        font-size: 56px;
     }
     .enfasis {
-        font-size: 52px;
-        font-family: var(--fuente-playfair);
-        font-weight: 600;
-        font-style: italic;
+        font-size: 44px;
     }
     h2 {
-        font-family: var(--fuente-poppins);
-        font-weight: 800;
-        font-size: 52px;
+        font-size: 44px;
     }
     h3{
-        font-size: 48px;
-        font-family: var(--fuente-poppins);
-        font-weight: 700;
+        font-size: 40px;
     }
     h4 {
-        font-size: 40px;
-        font-family: var(--fuente-poppins);
-        font-weight: 600;
+        font-size: 36px;
     }
     h5 {
-        font-size: 36px;
-        font-family: var(--fuente-poppins);
-        font-weight: 600;
+        font-size: 32px;
     }
     h6{
-        font-size: 32px;
-        font-family: var(--fuente-poppins);
-        font-weight: 400;
+        font-size: 30px;
     }
     .destacado {
-        font-family: var(--fuente-raleway);
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 18px;
     }
     p {
-        font-family: var(--fuente-raleway);
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 16px;
     }
     .body {
-        font-family: var(--fuente-raleway);
         font-size: 18px;
-        font-weight: 400;
     }
     button {
-        font-family: var(--fuente-raleway);
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
     }
     .btn-font-2 {
-        font-family: var(--fuente-raleway);
-        font-size: 20px;
-        font-weight: 700;
+        font-size: 18px;
     }
 }
+/* Celulares */
+@media screen and (max-width: 576px) { 
+    h1 {
+        font-size: 48px;
+    }
+    .enfasis {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    h6{
+        font-size: 20px;
+    }
+    .destacado {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .body {
+        font-size: 16px;
+    }
+    button {
+        font-size: 14px;
+    }
+    .btn-font-2 {
+        font-size: 16px;
+    }
+}
+
+

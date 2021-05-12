@@ -29,24 +29,30 @@
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
+.container-card-large{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 .texto-titulo-card-large {
     color: #333;
     text-shadow: 2px 2px 200px black;
     top: 70px;
     left:10vw;
 }
-
 .texto-card-large{
-    margin: 0;
-    min-height: 500px;
-    width: 95%;
+    width: 90%;
 }
 .btn-escribinos{
-    padding: 12px 35px;
-    border-radius: 4px;
+    padding: 12px 55px;
     background-color: #D92109;
     text-decoration: none;
+    font-weight: 700;
     color: var(--texto-titulos-color-white);
+    border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -57,7 +63,8 @@
     background-color: #C20114;
 }
 .btn-contactar{
-    padding: 12px 35px;
+    font-weight: 700;
+    padding: 12px 55px;
     border-radius: 4px;
     background-color: #279D61;
     text-decoration: none;
@@ -71,7 +78,6 @@
     color: var(--texto-titulos-color-white);
     background-color: #468966;
 }
-.row>* {
-    padding-right: calc(var(--bs-gutter-x)/ 2);
-    padding-left: calc(var(--bs-gutter-x)/ 2);
+.row {
+    --bs-gutter-x:0;
 }

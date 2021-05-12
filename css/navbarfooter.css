@@ -144,7 +144,7 @@
     font-weight: 500;
 }
 .container-redes-footer{
-    width: 90%;
+    width: 90% !important;
     margin: auto;
 }
 .redes-footer img{

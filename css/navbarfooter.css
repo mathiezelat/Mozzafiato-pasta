@@ -40,6 +40,7 @@
     color: var(--texto-menu-color-current);
     border-bottom: 4px solid var(--texto-menu-color-current);
     margin-bottom: -2px;
+    font-weight: 700;
 }
 .nav-link {
     display: block;

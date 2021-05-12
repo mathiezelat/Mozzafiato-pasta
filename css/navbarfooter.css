@@ -131,16 +131,21 @@
             font-weight: 400;
             overflow: hidden;
         }
-        .redes-footer {
-            margin-top: 10px;
+.redes-footer {
+    margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: center;
 }
 .redes-footer p{
     color: #7EE5B0;
     margin-bottom: 0rem;
     margin-right: 5px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+}
+.container-redes-footer{
+    width: 90%;
+    margin: auto;
 }
 .redes-footer img{
     color: whitesmoke;
@@ -180,14 +185,13 @@
 .menu-link-footer a{
     text-decoration: none;
     color: #7EE5B0;
-    font-weight: 300;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
 }
 .menu-link-footer p{
     color: #f9f9f9;
     line-height: 1;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0.3rem;
 }
 .container-createby-footer p{
@@ -226,6 +230,11 @@
             height: 56px;
             margin-left: 0px;
             margin-right: 10px;
+        }
+        .redes-footer {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: flex-start;
         }
     }
     @media (max-width: 764px){

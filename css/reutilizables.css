@@ -51,8 +51,8 @@ body {
     width: 80vw;
     height: 400px;
     object-fit: cover;
-    filter: brightness(0.8);
-    -webkit-filter: brightness(0.8);
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
 }
 .texto-titulo-card-large {
     position: absolute;

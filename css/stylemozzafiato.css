@@ -54,7 +54,7 @@
     width: 90%;
 }
 .btn-escribinos{
-    padding: 6px 28px;
+    padding: 6px 14px;
     background-color: #D92109;
     text-decoration: none;
     font-weight: 700;
@@ -79,7 +79,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 6px 28px;
+    padding: 6px 14px;
     border-radius: 4px;
     background-color: #279D61;
     text-decoration: none;

@@ -176,6 +176,9 @@ body {
 .ingredientes{
     list-style-image: url("../icons/016-column.svg");
 }
+.ingredientes-icon-2{
+    list-style-image: url("../icons/030-grapes.svg");
+}
 .ingredientes li{
     line-height: 1;
     font-size: 42px;

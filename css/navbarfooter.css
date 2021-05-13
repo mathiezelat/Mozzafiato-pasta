@@ -260,6 +260,9 @@
             align-content: center;
             align-items: center;
         }
+        .menu-link-footer{
+            display: none;
+        }
     }
 
     /* FinMedia query Footer */

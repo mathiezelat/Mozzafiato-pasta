@@ -54,7 +54,7 @@
     width: 90%;
 }
 .btn-escribinos{
-    padding: 12px 55px;
+    padding: 6px 36px;
     background-color: #D92109;
     text-decoration: none;
     font-weight: 700;
@@ -71,7 +71,7 @@
 }
 .btn-contactar{
     font-weight: 700;
-    padding: 12px 55px;
+    padding: 6px 36px;
     border-radius: 4px;
     background-color: #279D61;
     text-decoration: none;
@@ -84,6 +84,12 @@
 .btn-contactar:hover{
     color: var(--texto-titulos-color-white);
     background-color: #468966;
+}
+.btn-mozzafiato-container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .row {
     --bs-gutter-x:0;

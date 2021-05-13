@@ -74,6 +74,11 @@ body{
     top: 0px;
     left:14vw;
 }
+.texto-titulo-card-large h1{
+    line-height: 1;
+    color: #333333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
 .texto-card-large{
     width: 90%;
 }

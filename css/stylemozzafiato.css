@@ -71,7 +71,7 @@ body{
     flex-direction:column;
     justify-content: center;
     align-content: center;
-    top: 280px;
+    top: 0px;
     left:14vw;
 }
 .texto-card-large{

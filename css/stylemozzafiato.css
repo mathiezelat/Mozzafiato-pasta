@@ -44,7 +44,7 @@ body{
     overflow: hidden;
     pointer-events: none;
     user-select: none;
-    transform: scaleX(-1); 
+    transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
@@ -66,7 +66,7 @@ body{
     color: #333;
     position: absolute;
     text-shadow: 2px 2px 200px black;
-    width: 45vw;
+    width: 44vw;
     display: flex;
     flex-direction:column;
     justify-content: center;

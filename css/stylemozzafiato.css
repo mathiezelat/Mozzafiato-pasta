@@ -54,10 +54,14 @@
     width: 90%;
 }
 .btn-escribinos{
-    padding: 6px 36px;
+    padding: 6px 28px;
     background-color: #D92109;
     text-decoration: none;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     color: var(--texto-titulos-color-white);
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -71,7 +75,11 @@
 }
 .btn-contactar{
     font-weight: 700;
-    padding: 6px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 6px 28px;
     border-radius: 4px;
     background-color: #279D61;
     text-decoration: none;
@@ -80,6 +88,18 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+.btn-escribinos i img{
+    height: 18px;
+    width: 18px;
+    margin-bottom: 2px;
+    margin-right: 14px;
+}
+.btn-contactar i img{
+    height: 18px;
+    width: 18px;
+    margin-bottom: 3px;
+    margin-right: 14px;
 }
 .btn-contactar:hover{
     color: var(--texto-titulos-color-white);

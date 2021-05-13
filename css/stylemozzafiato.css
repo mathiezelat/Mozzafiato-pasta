@@ -21,9 +21,21 @@
     --texto-titulos-color: #333;
     --texto-titulos-color-white: #f8f8f8;
 }
+body{
+    overflow-x: hidden;
+}
 /* Fin de Variables */
 .texto-card-large{
     height: 450px;
+}
+.container-img-titulo {
+    margin-top: 0px;
+    width: 100vw;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
 }
 .container-img-titulo img {
     transform: rotate(180deg);
@@ -31,6 +43,12 @@
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
+    width: 100vw;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
 }
 .container-card-large{
     min-height: 450px;
@@ -46,9 +64,14 @@
 }
 .texto-titulo-card-large {
     color: #333;
+    position: absolute;
     text-shadow: 2px 2px 200px black;
-    top: 70px;
-    left:10vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    top: 280px;
+    left:14vw;
 }
 .texto-card-large{
     width: 90%;

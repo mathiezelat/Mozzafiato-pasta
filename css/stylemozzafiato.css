@@ -161,3 +161,8 @@ body{
     overflow: hidden;
 }
 }
+@media (max-width: 764px){
+    .texto-titulo-card-large {
+        width: 300px;
+    }
+}

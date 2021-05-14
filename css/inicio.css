@@ -112,9 +112,9 @@ margin: 0px 0px;
 /* Comienzo de items */
 
 .texto-titulo-card-large h1{
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 60px;
 }
 .texto-titulo-card-large p{
     font-size: 24px;

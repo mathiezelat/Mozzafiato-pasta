@@ -65,7 +65,7 @@ body{
     height: 450px;
 }
 .texto-titulo-card-large {
-    color: #333;
+    color: #f8f8f8;
     position: absolute;
     text-shadow: 2px 2px 200px black;
     width: 44vw;
@@ -79,8 +79,11 @@ body{
 }
 .texto-titulo-card-large h1{
     line-height: 1;
-    color: #333333;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.texto-titulo-card-large p{
+    line-height: 1;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .texto-card-large{
     width: 90%;

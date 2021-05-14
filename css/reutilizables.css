@@ -110,6 +110,7 @@ body {
     -ms-transform: scale(1.08);
     -o-transform: scale(1.08);
 }
+
 .row>* {
     padding-right: 0px;
     padding-left: 0px;

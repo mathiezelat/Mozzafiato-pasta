@@ -151,7 +151,7 @@ body {
     margin-top: 24px;
 }
 .container-text-rb {
-    width: 60vw;
+    width: 65vw;
 }
 .text-info-contain{
     margin-top: 24px;
@@ -202,11 +202,44 @@ body {
 .disfrutalo{
     margin-top: 14px;
 }
+.img-contain-article{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.img-contain-article img{
+    width: 75%;
+    margin: auto;
+    object-fit: contain;
+}
+.img-contain-article-2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.img-contain-article-2 img{
+    width: auto;
+    margin: auto;
+    object-fit: contain;
+    margin-bottom: 36px;
+    margin-top: 18px;
+}
 @media screen and (max-width:991px) {
     .container-text-rb {
         width: 80vw;
     }
     .container-text-rb h1{
         font-size: 38px;
+    }
+    .img-contain-article img{
+        width: 100%;
+    }
+    .img-contain-article-2 img{
+        width: 100%;
+        margin: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
     }
 }

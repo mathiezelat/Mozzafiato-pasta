@@ -50,14 +50,16 @@ body{
     -ms-transform: scaleX(-1);
     -o-transform: scaleX(-1);
 }
+
 .container-card-large{
     min-height: 450px;
-    border-radius: 5px;
+    width: 60vw;
     margin-top: 20px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .container-img-card-large{
     height: 450px;
@@ -71,6 +73,7 @@ body{
     flex-direction:column;
     justify-content: center;
     align-content: center;
+    align-items: flex-start;
     top: 0px;
     left:14vw;
 }
@@ -146,7 +149,7 @@ body{
 }
 .btn-mozzafiato-container{
     margin: auto;
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: space-evenly;
 }

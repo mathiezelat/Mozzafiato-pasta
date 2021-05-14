@@ -125,7 +125,7 @@
         /* Footer */
         .footer{
             display: flex;
-            margin-top: 15vh;
+            margin-top: 34px;
             background-color: var(--footer-color);
             font-family: var(--fuente-raleway);
             font-weight: 400;

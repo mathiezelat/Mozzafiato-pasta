@@ -212,4 +212,13 @@ body {
         overflow: hidden;
         background-color: #f8f8f8;
     }
+    .container-img-titulo {
+        margin-top: 10px;
+        width: 95vw;
+        height: 87vh;
+    }
+    .container-img-titulo img {
+        width: 95vw;
+        height: 87vh;
+    }
 }

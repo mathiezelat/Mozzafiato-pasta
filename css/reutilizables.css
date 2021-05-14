@@ -117,7 +117,7 @@ body {
 }
 .texto-card-large{
     height: 400px;
-    width: 75%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
     color: var(--texto-titulos-color);

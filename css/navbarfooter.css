@@ -243,6 +243,10 @@
             justify-content: flex-start;
             align-items: center;
             align-content: center;
+            margin-bottom: 15px;
+        }
+        .container-menu-footer img{
+            margin-top: 5px;
         }
         .redes-footer {
             margin-top: 10px;

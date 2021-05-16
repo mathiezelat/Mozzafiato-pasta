@@ -199,6 +199,7 @@ body {
     width: 54.29px !important;
     height: 32px !important;
 }
+
 @keyframes arrow-move{
     0%{
         padding-bottom: 120px;
@@ -298,6 +299,9 @@ body {
     .arrow-none{
         visibility: visible;
     }
+    .row-reverse{
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width: 576px){
     .container-card-large{
@@ -325,5 +329,8 @@ body {
     }
     .arrow-none{
         visibility: visible;
+    }
+    .row-reverse{
+        flex-direction: column-reverse;
     }
 }

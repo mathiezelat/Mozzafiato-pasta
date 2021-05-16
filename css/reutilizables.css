@@ -189,8 +189,11 @@ body {
     padding-bottom: 100px;
     top: 0px;
     left: 0px;
-    animation: arrow-move 1.5s alternate-reverse infinite ease;
-    -webkit-animation: arrow-move 1.5s alternate-reverse infinite ease-in-out;
+    animation: arrow-move 1.8s infinite ease;
+    -webkit-animation: arrow-move 1.8s infinite ease;
+}
+.arrow-none{
+    visibility: hidden;
 }
 .arrow{
     width: 54.29px !important;
@@ -257,6 +260,9 @@ body {
         width: 95vw;
         height: 90vh;
     }
+    .arrow-none{
+        visibility: visible;
+    }
 }
 @media screen and (max-width:765px) and (min-width:576px){
     .container-card-large{
@@ -289,6 +295,9 @@ body {
         background-color: black;
         overflow: hidden;
     }
+    .arrow-none{
+        visibility: visible;
+    }
 }
 @media (max-width: 576px){
     .container-card-large{
@@ -313,5 +322,8 @@ body {
         height: 250px;
         margin: auto;
         padding: 0px;
+    }
+    .arrow-none{
+        visibility: visible;
     }
 }

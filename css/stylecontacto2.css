@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-text-rb {
+  width: 55vw;
+}
+.text-info-contain{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.redes-contacto-title{
+  display: flex;
+}
+.redes-icons{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.container-redes-contacto{
+  margin-bottom: 25px;
+}
+.btn-contactar{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #279D61;
+  text-decoration: none;
+  color: var(--texto-titulos-color-white);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+.redes-contacto-title p{
+  margin-bottom: 5px;
+}
+.btn-contactar i img{
+  height: 18px;
+  width: 18px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
+.btn-contactar:hover{
+  color: var(--texto-titulos-color-white);
+  background-color: #468966;
+}
+.btn-redes{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #D92109;
+  text-decoration: none;
+  color: var(--texto-titulos-color-white);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+.btn-redes i img{
+  height: 18px;
+  width: 18px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+.btn-redes:hover{
+  color: var(--texto-titulos-color-white);
+  background-color: #C20114;
+}
+.redes-contacto-btn{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.redes-contacto-btn a{
+  margin-right: 10px;
+}
+
+.botones-redes{
+  display: flex;
+  flex-wrap: wrap;
+}
+.botones-redes a{
+  margin-bottom: 10px;
+}
+@media screen and (max-width:765px){
+  .container-text-rb {
+    width: 85vw;
+  }
+}

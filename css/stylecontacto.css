@@ -2,153 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-  }
-  body{
-    background: black;
-  }
-  
-
-
-  /* contenedor 1 */
-.contenedor1{
-margin: 100px;
-text-align: center;
-  display: flex ;
-  flex-direction: row ;
-  flex-wrap: wrap ;
-  justify-content: space-around ;
-  align-items: stretch ;
-  align-content: center ;
 }
-
-.contenedor1 button{
-  margin-top: -5%;
-  padding: 14px;
-  color: white;
+.container-text-rb {
+  width: 55vw;
 }
-.contenedor1 h2{
-  color: white;
+.text-info-contain{
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
-
-
-
-/* imagenes */
-.imagenes{
-  margin-top: 40px;
-  width: 250px;
-  padding-bottom: 50px;
+.redes-contacto-title{
+  display: flex;
 }
-.imagenes:hover{
-
-  border-radius: 1px;
- border: solid 5px white;
-  transform:scale(1.5);
+.redes-icons{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
 }
-.imagenes:hover{
-  transform: scale(10vw);
+.container-redes-contacto{
+  margin-bottom: 25px;
 }
-
-/* Texto de abajo  de imagenes*/
-
-/* contenedor 3 */
-
-/* informacion de de contacto */
-
-article {
-
-margin-top: 5%;
-margin: 80px 0;
-color: white;
-}
-
-article p{
-  text-align: center;
-  color: #1f53c5;
-}
-article h2{
-  text-align: center;
-  color:  green;
-}
-article p:hover{
-  text-align: center;
-  color: white;
-}
-
-/* Titulo contacto*/
-
-
-.container-titulo-page{
-  margin: auto;
-}
-.container-img-titulo {
-  margin-top: 20px;
-  width: 80vw;
-  height: 400px;
-  position: relative;
-  overflow: hidden;
-  pointer-events: none;
-  user-select: none;
-}
-.container-img-titulo img {
-  width: 80vw;
-  height: 400px;
-  object-fit: cover;
-}
-.texto-titulo-card-large {
-  position: absolute;
-  text-decoration: none;
-  width: 400px;
-  top: 150px;
-  left:10vw;
-  color: var(--texto-titulos-color-white);
-  text-shadow: 2px 2px 40px black;
-  font-family: 'Poppins', sans-serif;
-}
-
-.texto-titulo-card-large h1{
-  font-size: 48px;
+.btn-contactar{
   font-weight: 700;
-  line-height: 1;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #279D61;
+  text-decoration: none;
+  color: var(--texto-titulos-color-white);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+.redes-contacto-title p{
+  margin-bottom: 5px;
+}
+.btn-contactar i img{
+  height: 18px;
+  width: 18px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
+.btn-contactar:hover{
+  color: var(--texto-titulos-color-white);
+  background-color: #468966;
+}
+.btn-redes{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #D92109;
+  text-decoration: none;
+  color: var(--texto-titulos-color-white);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+.btn-redes i img{
+  height: 18px;
+  width: 18px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+.btn-redes:hover{
+  color: var(--texto-titulos-color-white);
+  background-color: #C20114;
+}
+.redes-contacto-btn{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.redes-contacto-btn a{
+  margin-right: 10px;
 }
 
-/*  */
-/* contenedor 2 */
-.contenedor2{
-
-  width: 730px;
-  height: 288px;
-  left: 355px;
-  top: 576px;
-  
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-  
-  
-color: white;
+.botones-redes{
+  display: flex;
+  flex-wrap: wrap;
 }
-.redes p{
-margin-left:5px;
+.botones-redes a{
+  margin-bottom: 10px;
 }
-
-.bi-instagram{
-  color: #D92109;
-margin-left: 5px;
-}
-.bi-facebook{
-color: #D92109;
-margin-left: 5px;
-}
-.bi-whatsapp{
-color: #D92109;
-margin-left: 5px;
-}
-.bi-youtube{
-color: #D92109;
-margin-left: 5px;
+@media screen and (max-width:765px){
+  .container-text-rb {
+    width: 85vw;
+  }
 }

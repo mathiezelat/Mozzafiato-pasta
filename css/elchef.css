@@ -76,6 +76,6 @@ main p {
     width: 730px;
 height: 548px;
 margin: auto auto;
-background-image: url(/imagenes/cursos.JPG);
+background-color: red;
 margin-top: 88px;
 }

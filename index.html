@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Fuentes de Google -->
+<head>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet">
-        <!-- imagen titulo web -->
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-        <!-- CSS -->
-        <!-- Navbar y Footer -->
-        <link rel="stylesheet" href="./css/navbarfooter.css" />
-        <!-- Fin de Navbar y Footer -->
-        <!-- Contenido de la página -->
-<link rel="stylesheet" href="css/inicio.css">
-    <link rel="stylesheet" href="css/tipografias.css">
-    <link rel="stylesheet" href="css/reutilizables.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- imagen titulo web -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- CSS -->
+    <!-- Navbar y Footer -->
+    <link rel="stylesheet" href="./css/navbarfooter.css" />
+    <!-- Fin de Navbar y Footer -->
+    <!-- Contenido de la página -->
+    <link rel="stylesheet" href="./css/reutilizables.css" />
+    <link rel="stylesheet" href="./css/inicio.css" />
+    <link rel="stylesheet" href="./css/tipografias.css" />
+
     <!-- Fin Contenido de la página -->
     <!-- Fin de CSS -->
     <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Titulo de la pagina -->
     <title>Claudio David Veltri</title>
     <!-- Meta datos -->
@@ -40,192 +44,186 @@
 </head>
 
 <body>
-    <header>
-        <!-- NAVBAR -->
-
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Claudio David Veltri</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="elchef.html">El chef</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="mozzafiato.html">Mozzafiato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cursos.html">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="recetas.html">Recetas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Claudio David Veltri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="elchef.html">El chef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mozzafiato.html">Mozzafiato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <!-- FIN DE NAVBAR -->
 
-<!-- Inicio de contenido -->
 
-<main>
-<!-- CONTENIDO -->
-<div class="container-titulo-page container-fluid" >
-    <div class="row" >
-        <!-- Titulo BLOG -->
-        <div class="col-md-12 d-flex justify-content-center align-items-center">
-            <div class="column" >
-                <div class="container-img-titulo" >
-                    <img src="imagenes/davidindex.JPEG"
-                        alt="portada blog pexels" >
-                    <div class="texto-titulo-card-large">
-                    </div>
-                    <div class="arrow-container arrow-none">
-                        <img class="arrow" src="./icons/arrow.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fin de Titulo BLOG -->
 
-        
-        <!-- Item BLOG -->
-        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
-            <div class="row">
-                <div class="container-card-large animation-link-hover">
-                    <a href="mozzafiato.html" class="link-card-large">
-                        <div class="row row-reverse">
-                            <div class="col-md-6">
-                                <div class="texto-card-large d-flex justify-content-center align-items-center">
-                                    <div class="column">
-                                        <div class="container-etiquetas">
-                                                <p class="etiqueta-rojo">Historia</p>
-                                                <p class="etiqueta-negro">NUEVO</p>
-                                        </div>
-                                        <h6>Mozzafiato</h6>
-                                        <p class="body">Te traemos Italia a tu plato. Podés contactarnos a Mozzafiato pastas para conseguir nuestras pastas artesanales o a Mozzafiato trattoria mobile para contratar el servicio de catering o food truck.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="container-img-card-large d-flex justify-content-center align-items-center">
-                                    <img src="./imagenes/la-pizza.jpg"
-                                        alt="pizza">
-                                </div>
-                            </div>
+    <!-- CONTENIDO -->
+    <div class="container-titulo-page container-fluid">
+        <div class="row">
+            <!-- Titulo Mozzafiato -->
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div class="column">
+                    <div class="container-img-titulo">
+                        <img src="imagenes/davidindex.JPEG"
+                            alt="imagen-fondo">
+                        <div class="texto-titulo-card-large">
+                            <h1>Italia a tu mesa</h1>
+                            <p class="destacado">Mi nombre es Claudio David Veltri, soy cocinero, pero nadie me conoce por David, soy “el tano”.Te invito a italianizarte, aprendiendo a hacer las mejores y más tanas pastas. </p>
+                            <p class="destacado"></p>
+                            <button type="button" class="btn btn-primary">Ver cursos</button>
                         </div>
-                    </a>
+                        <div class="arrow-container">
+                            <img class="arrow" src="./icons/arrow.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Fin Item BLOG -->
-        <!-- Item BLOG 2 -->
-        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
-            <div class="row">
-                <div class="container-card-large animation-link-hover">
-                    <a href="cursos.html" class="link-card-large">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="container-img-card-large d-flex justify-content-center align-items-center">
-                                    <img src="./imagenes/strufolli-blog.JPEG"
-                                        alt="strufolli">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="texto-card-large d-flex justify-content-center align-items-center">
-                                    <div class="column">
-                                        <div class="container-etiquetas">
-                                            <p class="etiqueta-rojo">Historia</p>
+            <!-- Fin de Titulo Mozzafiato -->
+                        <!-- Item Mozzafiato 2 -->
+                        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="container-card-large">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="container-img-card-large d-flex justify-content-center align-items-center">
+                                                <img src="./imagenes/pastas.jpg"
+                                                    alt="pastas">
+                                            </div>
                                         </div>
-                                        <h6>Cursos online</h6>
-                                        <p class="body">No tenés que salir de tu casa para aprender a hacer las mejores platos típicos de la cocina italiana. No necesitas ser chef, sólo ganas y unirte a mis clases, ¡te espero!</p>
+                                        <div class="col-md-6">
+                                            <div class="texto-card-large d-flex justify-content-center align-items-center">
+                                                <div class="column">
+                                                    <h1 class="enfasis">Mozzafiato</h1>
+                                                    <p class="destacado"></p>
+                                                    <p class="destacado">Te traemos Italia a tu plato. Podés contactarnos a Mozzafiato pastas para conseguir nuestras pastas artesanales o a Mozzafiato trattoria mobile para contratar el servicio de catering o food truck.</p>
+                                                    <p class="destacado"> </p>
+                                                    <div class="btn-mozzafiato-container">
+                                                    <a href="" class="btn-contactar" target="_blank"><i><img src="./imagenes/whatsapp-btn.svg" alt="redes"></i>Contactar</a> <a href="https://www.instagram.com/mozzafiatopasta/" class="btn-escribinos" target="_blank"><i><img src="./imagenes/instagram-btn.svg" alt="redes"></i>Ver más</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Fin Item BLOG 2 -->
-        <!-- Item BLOG -->
-        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
-            <div class="row">
-                <div class="container-card-large animation-link-hover">
-                    <a href="recetas.html" class="link-card-large">
-                        <div class="row row-reverse">
-                            <div class="col-md-6">
-                                <div class="texto-card-large d-flex justify-content-center align-items-center">
-                                    <div class="column">
-                                        <div class="container-etiquetas">
-                                                <p class="etiqueta-amarillo">Cucina</p>
+                        <!-- Fin Item Mozzafiato 2 -->
+                        <!-- Item Mozzafiato -->
+                        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="container-card-large">
+                                    <div class="row row-reverse">
+                                        <div class="col-md-6">
+                                            <div class="texto-card-large d-flex justify-content-center align-items-center">
+                                                <div class="column">
+                                                    <h1 class="enfasis">Cursos online</h1>
+                                                    <p class="destacado"> </p>
+                                                    <p class="destacado"> No tenés que salir de tu casa para aprender a hacer las mejores platos típicos de la cocina italiana. No necesitas ser chef, sólo ganas y unirte a mis clases, ¡te espero!</p>
+                                                    <p class="destacado"> </p>
+                                                    <div class="btn-mozzafiato-container">
+                                                    <a href="https://www.instagram.com/mozzafiatotrattoriamobile/" class="btn-escribinos" target="_blank"><i><img src="./imagenes/instagram-btn.svg" alt="redes"></i>Ver más</a> <a href="" class="btn-contactar" target="_blank"><i><img src="./imagenes/whatsapp-btn.svg" alt="redes"></i>Contactar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h6>Bienvenido a mi recetario</h6>
-                                        <p class="body">¿No sabés como hacer una buena pasta o una salsa para acompañarla? En mi sección de recetas vas a encontrar siempre algo que te ayude a lucir tus plato a la italiana.</p>
+                                        <div class="col-md-6">
+                                            <div class="container-img-card-large d-flex justify-content-center align-items-center">
+                                                <img class="img-movida" src="./imagenes/trattoria-mobile.jpg"
+                                                    alt="trattoria mobile comida">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="container-img-card-large d-flex justify-content-center align-items-center">
-                                    <img class="imagen-para-arriba" src="./imagenes/il-consoncello.jpg"
-                                        alt="il consoncello"> 
+                        </div>
+                        <!-- Fin Item Mozzafiato -->
+                         <!-- Item Mozzafiato 2 -->
+                         <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="container-card-large">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="container-img-card-large d-flex justify-content-center align-items-center">
+                                                <img src="./imagenes/pastas.jpg"
+                                                    alt="pastas">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="texto-card-large d-flex justify-content-center align-items-center">
+                                                <div class="column">
+                                                    <h1 class="enfasis">Bienvenido a mi recetario</h1>
+                                                    <p class="destacado"> </p>
+                                                    <p class="destacado">¿No sabés como hacer una buena pasta o una salsa para acompañarla? En mi sección de recetas vas a encontrar siempre algo que te ayude a lucir tus plato a la italiana. </p>
+                                                    <p class="destacado"> </p>
+                                                    <div class="btn-mozzafiato-container">
+                                                    <a href="" class="btn-contactar" target="_blank"><i><img src="./imagenes/whatsapp-btn.svg" alt="redes"></i>Contactar</a> <a href="https://www.instagram.com/mozzafiatopasta/" class="btn-escribinos" target="_blank"><i><img src="./imagenes/instagram-btn.svg" alt="redes"></i>Ver más</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+                        <!-- Fin Item Mozzafiato 2 -->
+                        <!-- Item Mozzafiato -->
+                        <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="container-card-large">
+                                    <div class="row row-reverse">
+                                        <div class="col-md-6">
+                                            <div class="texto-card-large d-flex justify-content-center align-items-center">
+                                                <div class="column">
+                                                    <h1 class="enfasis">Mi blog</h1>
+                                                    <p class="destacado"> </p>
+                                                    <p class="destacado">Dedicado a quienes no quieren sólo una receta: te cuento la historia detrás de distintos platos, de mis viajes culinarios y mucho más. </p>
+                                                    <p class="destacado"> </p>
 
-</div>
- <!-- Item BLOG -->
- <div class="col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
-    <div class="row">
-        <div class="container-card-large animation-link-hover">
-            <a href="blog.html" class="link-card-large">
-                <div class="row row-reverse">
-                    <div class="col-md-6">
-                        <div class="texto-card-large d-flex justify-content-center align-items-center">
-                            <div class="column">
-                                <div class="container-etiquetas">
-                                        <p class="etiqueta-rojo">Historia</p>
-                                        <p class="etiqueta-negro">NUEVO</p>
+                                                    <div class="btn-mozzafiato-container">
+                                                    <a href="https://www.instagram.com/mozzafiatotrattoriamobile/" class="btn-escribinos" target="_blank"><i><img src="./imagenes/instagram-btn.svg" alt="redes"></i>Ver más</a> <a href="" class="btn-contactar" target="_blank"><i><img src="./imagenes/whatsapp-btn.svg" alt="redes"></i>Contactar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="container-img-card-large d-flex justify-content-center align-items-center">
+                                                <img class="img-movida" src="./imagenes/trattoria-mobile.jpg"
+                                                    alt="trattoria mobile comida">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h6>Mi blog</h6>
-                                <p class="body">Dedicado a quienes no quieren sólo una receta: te cuento la historia detrás de distintos platos, de mis viajes culinarios y mucho más.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="container-img-card-large d-flex justify-content-center align-items-center">
-                            <img src="./imagenes/la-pizza.jpg"
-                                alt="pizza">
-                        </div>
-                    </div>
-                </div>
-            </a>
+                        <!-- Fin Item Mozzafiato -->
+                        
+
         </div>
     </div>
-</div>
-
-        <!-- Fin Item BLOG -->
-    </div>
-<!-- FIN DE CONTENIDO -->
-
-</main>
-    
+    <!-- FIN DE CONTENIDO -->
 
 
 

@@ -86,7 +86,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: flex-start;
-    top: 0px;
+    top: 70px;
     left:14vw;
     z-index: 5;
 }
@@ -216,7 +216,7 @@ body{
         justify-content: center;
         align-content: center;
         align-items: flex-start;
-        top:0px;
+        top:50px;
         left:0px;
         padding-left: 25px;
         padding-right: 25px;
@@ -271,7 +271,7 @@ body{
         justify-content: center;
         align-content: center;
         align-items: flex-start;
-        top:0px;
+        top:60px;
         left:0px;
         padding-left: 25px;
         padding-right: 25px;
@@ -294,7 +294,7 @@ body{
         justify-content: flex-end;
         align-items: center;
         top: 0px;
-        left: -20px;
+        left: 25px;
         z-index: -1;
         font-style: normal;
         font-weight: bold;

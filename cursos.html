@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- imagen titulo web -->
 
     <!-- Bootstrap CSS -->
@@ -16,12 +18,16 @@
     <link rel="stylesheet" href="./css/navbarfooter.css" />
     <!-- Fin de Navbar y Footer -->
     <!-- Contenido de la página -->
-    
-    <link rel="stylesheet" href="./css/stylecursos.css" />
+    <link rel="stylesheet" href="./css/stylecursos.css">
+    <link rel="stylesheet" href="./css/reutilizables.css" />
+
+    <link rel="stylesheet" href="./css/tipografias.css" />
+
     <!-- Fin Contenido de la página -->
     <!-- Fin de CSS -->
     <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Titulo de la pagina -->
     <title>Claudio David Veltri</title>
     <!-- Meta datos -->
@@ -53,10 +59,10 @@
                         <a class="nav-link" href="elchef.html">El chef</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mozzafiato.html">Mozzafiato</a>
+                        <a class="nav-link active" aria-current="page" href="mozzafiato.html">Mozzafiato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
+                        <a class="nav-link" href="cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="recetas.html">Recetas</a>
@@ -72,205 +78,324 @@
         </div>
     </nav>
     <!-- FIN DE NAVBAR -->
-<!-- CONTENIDO -->
-<div class="container-titulo-page container-fluid">
-    <div class="row">
-        <!-- Titulo Mozzafiato -->
-        <div class="col-md-12 d-flex justify-content-center align-items-center">
-            <div class="column">
-                <div class="container-img-titulo">
-                    <img src="https://images.pexels.com/photos/4039609/pexels-photo-4039609.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                        alt="imagen-fondo">
-                    <div class="texto-titulo-card-large">
-                        <h1>Cursos</h1>
+
+
+
+    <!-- CONTENIDO -->
+    <div class="container-titulo-page container-fluid">
+        <div class="row">
+            <!-- Titulo Mozzafiato -->
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div class="column">
+                    <div class="container-img-titulo">
+                        <img src="imagenes/cursosimg.jpg"
+                            alt="imagen-fondo">
+                        <div class="texto-titulo-card-large">
+                            <h1>Cursos</h1>
+                             </div>
+                        <div class="arrow-container">
+                            <img class="arrow" src="./icons/arrow.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-                <!-- Fin de Titulo Cursos    -->
-<!-- Titulo Workshop -->
-        <div class="container-fluid textoworkshop">
-            <div class="row">
-                <div class="col-md-12 texto-workshop">
-                    <h3>
-                        Workshop
-                    </h3>
-                    <br>
-                    <p>
-                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quo quia praesentium tenetur molestias magni ratione eaque mollitia quaerat unde eligendi sit odio nulla, deserunt doloremque ab quasi! Repellat, quasi?</p>
-                </div>
-            </div>
-        </div>   
+            <!-- Fin de Titulo Mozzafiato -->
+                      
 
-        <!-- Fin de Titulo Workshop    -->
-        <!-- Items  1 2 y 3 -->
-        <div class="container-fluid workshop">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas de colores</h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                          Certificado</p></p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas para pastas</h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                            Certificado</p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas del sur </h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                          Certificado</p></p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-<!-- Items 4 5 6 -->
-   <!-- Items  1 2 y 3 -->
-        <div class="container-fluid workshop">
-            <br><br>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas de colores</h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                          Certificado</p></p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas para pastas</h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                            Certificado</p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Masas del sur  </h5>
-                          <p class="card-text"><p> Descripción del workshop</p> <p>Duración</p>
-                          Certificado</p></p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Titulo Workshop -->
-        <div class="container-fluid textoworkshop2">
-            <div class="row">
-                <div class="col-md-12 texto-workshop2">
-                    <h3>
-                        Master class
-                    </h3>
-                    <br>
-                    <br>
-                    <br>
-                    <p>
-                        Clase magistral única con modalidad virtual, para aprender desde la comodidad de casa sobre temáticas puntuales de la cocina italiana.</p>
-                </div>
-            </div>
-        </div>   
-
-        <!-- Fin de Titulo Workshop (MasterClass)    -->
-<!-- Articulos Masterclass 1 2 y 3 -->
-        <div class="container-fluid workshop">
-            <br><br>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Pastas Italianas</h5>
-                          <p class="card-text"><p> Clase virtual</p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Pastas secas y rellenas</h5>
-                          <p class="card-text"><p> Clase virtual</p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Pastas secas </h5>
-                          <p class="card-text"><p> Clase virtual</p>
-                          <a href="#" class="btn btn-primary botones">Comprar</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-  <!-- Titulo Workshop -->
-  <div class="container-fluid textoworkshop2">
-    <div class="row">
-        <div class="col-md-12 texto-workshop2">
-            <h3>
-               Capacitaciones
-            </h3>
-            <br>
-            <br>
-            <br>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat odio sed felis malesuada, sit amet tincidunt neque lobortis. Fusce at quam risus. Aliquam pulvinar nisi et mauris interdum vulputate. </p>
         </div>
     </div>
-</div>   
 
-<!-- Articulo capacitaciones -->
+<main>
+<div class="workshops">
+    <div class="workshoptext">
+        <h3>Workshops</h3>
+        <p class="destacado">Talleres aptos para todo público, no es necesario ser profesional. Es una clase única de 5 (cinco) horas de duración donde se aborda un tema específico. Aprenderás la técnica y a realizar las pastas tú mismo.</p>
+     </div>
+     <br>
+     <br>
+     <br>
+     
+     <!-- item 1 2 y 3 -->
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop1.JPEG"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Masas de colores</h5>
+                         <p class="card-text">
+                            Aprende en detalle a crear masas coloridas, simples y rellenas, utilizando el pigmento natural de ingredientes.</p>
+                         <div class="botones">
 
-<div class="container-fluid workshop">
-	<div class="row">
-		<div class="col-md-12">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="imagenes/cursos.JPG" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Pastas secas </h5>
-                  <p class="card-text"><p> Clase virtual</p>
-                  <a href="#" class="btn btn-primary botones">Comprar</a>
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop3.jpg"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Masas para pastas</h5>
+                         <p class="card-text">
+                            Aprende en detalle a realizar distintas pastas, tanto simples como rellenas, con y sin color.</p>
+                         <div class="botones">
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop3.jpg"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Masas del sur artesanales</h5>
+                         <p class="card-text">
+                            Aprende en un mes a preparar las pastas más típicas del sur de Italia con gran detalle.</p>
+                         <div class="botones">
+
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+
+     <!-- Fin item 1 2 y 3 -->
+     <br>
+     <br>
+     <br>
+     <!-- Item 4 5 y 6-->
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop4.jpg"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Pastas italianas rellenas</h5>
+                         <p class="card-text">
+                            Aprende con todos los detalles a hacer las masas rellenas típicas como raviolones, capeletti y muchos más.</p>
+                         <div class="botones">
+
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop5.jpg"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Tallado en frutas y verduras</h5>
+                         <p class="card-text">
+                            Aprende los secretos para tallar frutas y verduras y llevar tu mesa a otro nivel.</p>
+                         <div class="botones">
+
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+             <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top"
+                         src="imagenes/Img/Workshop/workshop6.HEIC"
+                         alt="Card image cap" style="width: 350px;
+             height: 262px; ">
+                     <div class="card-body">
+                         <h5 class="card-title">Especial de pastas rellenas</h5>
+                         <p class="card-text">
+                            Aprende a hacer pastas rellenas más complejas como la lasaña, canelones y pasticcio.</p>
+                         <div class="botones">
+
+                             <button type="button" class="btn btn-danger">Ver mas</button>
+                             <button type="button" class="btn btn-success">Comprar</button>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+
+
+     <!-- Fin items 4 5 y 6 -->
+</div>
+<!-- Comienzo capacitaciones -->
+<div class="workshops">
+    <div class="workshoptext">
+        <h3>Capacitaciones</h3>
+        <p class="destacado">Se trata de cursadas de un mes de duración donde todo el contenido se ve en mayor profundidad respecto a los workshops. Dirigidos para quienes quieren un mayor grado de especialización en la materia.</p>
+     </div>
+     <br>
+     <br>
+     <br>
+      <!-- item 1 2 y 3 -->
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="imagenes/Img/Capacitaciones/capacitacion1.jpeg"
+                        alt="Card image cap" style="width: 350px;
+            height: 262px; ">
+                    <div class="card-body">
+                        <h5 class="card-title">Masas de colores</h5>
+                        <p class="card-text">
+                            Aprende en detalle a crear masas coloridas, simples y rellenas, utilizando el pigmento natural de ingredientes.</p>
+                        <div class="botones">
+
+                            <button type="button" class="btn btn-danger">Ver mas</button>
+                            <button type="button" class="btn btn-success">Comprar</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-		</div>
-	</div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="imagenes/Img/Capacitaciones/capacitacion4.jpg"
+                        alt="Card image cap" style="width: 350px;
+            height: 262px; ">
+                    <div class="card-body">
+                        <h5 class="card-title">Masas para pastas</h5>
+                        <p class="card-text">
+                            Aprende en detalle a realizar distintas pastas, tanto simples como rellenas, con y sin color.</p>
+                        <div class="botones">
+
+
+                            <button type="button" class="btn btn-danger">Ver mas</button>
+                            <button type="button" class="btn btn-success">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="imagenes/Img/Capacitaciones/capacitacion3.jpg"
+                        alt="Card image cap" style="width: 350px;
+            height: 262px; ">
+                    <div class="card-body">
+                        <h5 class="card-title">Masas del sur artesanales</h5>
+                        <p class="card-text">
+                            Aprende en un mes a preparar las pastas más típicas del sur de Italia con gran detalle.</p>
+
+                        <div class="botones">
+
+                            <button type="button" class="btn btn-danger">Ver mas</button>
+                            <button type="button" class="btn btn-success">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- fin items -->
+
+    <br>
+    <br>
+    <br>
+    <!-- Items 4 5 y 6 -->
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="imagenes/Img/Capacitaciones/capacitacion4.jpg"
+                    alt="Card image cap" style="width: 350px;
+        height: 262px; ">
+                <div class="card-body">
+                    <h5 class="card-title">Pastas italianas rellenas</h5>
+                    <p class="card-text">
+                        Aprende con todos los detalles a hacer las masas rellenas típicas como raviolones, capeletti y muchos más.</p>
+
+                    <div class="botones">
+
+                        <button type="button" class="btn btn-danger">Ver mas</button>
+                        <button type="button" class="btn btn-success">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="imagenes/Img/Capacitaciones/capacitacion5.jpg"
+                    alt="Card image cap" style="width: 350px;
+        height: 262px; ">
+                <div class="card-body">
+                    <h5 class="card-title">Tallado en frutas y verduras</h5>
+                    <p class="card-text">
+                        Aprende los secretos para tallar frutas y verduras y llevar tu mesa a otro nivel.</p>
+                                        <div class="botones">
+
+
+                        <button type="button" class="btn btn-danger">Ver mas</button>
+                        <button type="button" class="btn btn-success">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="imagenes/Img/Capacitaciones/capacitacion6.jpg"
+                    alt="Card image cap" style="width: 350px;
+        height: 262px; ">
+                <div class="card-body">
+                    <h5 class="card-title">Especial de pastas rellenas</h5>
+                    <p class="card-text">
+                        Aprende con detalle a hacer las pastas rellenas más complejas como lo son la lasaña, canelones y pasticcio.</p>
+                                        <div class="botones">
+
+                        <button type="button" class="btn btn-danger">Ver mas</button>
+                        <button type="button" class="btn btn-success">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
-<!-- Fin de Titulo Workshop (MasterClass)    -->
+
+
+
+
+
+</main>
 
 
 
@@ -283,88 +408,74 @@
         <div class="container-fluid">
             <div class="container-redes-footer">
                 <div class="row">
-                    <div class="redes-footer col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="redes-footer col-md-12 col-lg-4 d-flex align-items-center">
                         <p>Claudio David Veltri</p>
-                        <a href="">
+                        <a href="https://www.instagram.com/davidveltricocinero/" target="_blank">
                             <img src="./imagenes/instagram.svg" alt="Instagram">
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/chedavidveltri" target="_blank">
                             <img src="./imagenes/facebook.svg" alt="Facebook">
                         </a>
-                    </div>
-                    <div class="redes-footer col-md-4 d-flex justify-content-center align-items-center">
-                        <p>Mozzafiato Pastas</p>
-                        <a href="">
-                            <img src="./imagenes/instagram.svg" alt="Instagram">
-                        </a>
-                        <a href="">
-                            <img src="./imagenes/facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="">
-                            <img src="./imagenes/whatsapp.svg" alt="Whatsapp">
-                        </a>
-                    </div>
-                    <div class="redes-footer col-md-4 d-flex justify-content-center align-items-center">
-                        <p>Mozzafiato Trattoria mobile</p>
-                        <a href="">
-                            <img src="./imagenes/instagram.svg" alt="Instagram">
-                        </a>
-                        <a href="">
-                            <img src="./imagenes/facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="">
-                            <img src="./imagenes/whatsapp.svg" alt="Whatsapp">
-                        </a>
-                        <a href="">
+                        <a href="https://www.youtube.com/channel/UC-QoIVL5YeQNcb7t5Z9JWfw" target="_blank">
                             <img src="./imagenes/youtube.svg" alt="YouTube">
                         </a>
                     </div>
-                </div>
-            </div>
-            <div class="container-footer-sponsor">
-                <div class="row">
-                    <div class="imagenes-footer-sponsor">
-                        <img src="./imagenes/goodygroup.jpg" alt="Goody">
-                        <img src="./imagenes/eka.jpg" alt="Eka">
-                        <img src="./imagenes/acils.jpg" alt="Acil">
-                        <img src="./imagenes/loversolive.jpg" alt="Lovers">
-                        <img src="./imagenes/silcook.jpg" alt="Silcook">
+                    <div class="redes-footer col-md-12 col-lg-4 d-flex align-items-center">
+                        <p>Mozzafiato Pastas</p>
+                        <a href="https://www.instagram.com/mozzafiatopasta/" target="_blank">
+                            <img src="./imagenes/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="redes-footer col-md-12 col-lg-4 d-flex align-items-center">
+                        <p>Mozzafiato Trattoria mobile</p>
+                        <a href="https://www.instagram.com/mozzafiatotrattoriamobile/" target="_blank">
+                            <img src="./imagenes/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/Mozzafiatotrattoriamobile/" target="_blank">
+                            <img src="./imagenes/facebook.svg" alt="Facebook">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="container-menu-footer">
                 <div class="row menu-footer">
-                    <div class="col-md-4 contain-menu-footer d-flex justify-content-center">
+                    <div class="col-md-12 col-lg-4 contain-menu-footer d-flex">
                         <p>Il Cuoco Claudio Veltri</p>
                     </div>
-                    <div class="col-md-2 menu-link-footer">
-                        <p>Il Cuoco</p>
-                        <a href="">Biografia</a>
-                        <a href="">Premios</a>
-                        <a href="">Prensa</a>
+                    <div class="col-md-2 col-lg-2 menu-link-footer">
+                        <a href="./elchef.html">Il chef</a>
+                        <p>Biografia</p>
+                        <p>Premios</p>
                     </div>
-                    <div class="col-md-2 menu-link-footer">
-                        <p>Mozzafiato</p>
-                        <a href="">Trattoria mobile</a>
-                        <a href="">Food Truck</a>
-                        <a href="">Catering</a>
-                        <a href="">Pastas</a>
+                    <div class="col-md-2 col-lg-2 menu-link-footer">
+                        <a href="./mozzafiato.html">Mozzafiato</a>
+                        <p>Trattoria mobile</p>
+                        <p>Pastas</p>
                     </div>
-                    <div class="col-md-2 menu-link-footer">
-                        <p>Cursos</p>
-                        <a href="">Workshops</a>
-                        <a href="">Master class</a>
-                        <a href="">Capacitaciones</a>
+                    <div class="col-md-2 col-lg-2 menu-link-footer">
+                        <a href="./cursos.html">Cursos</a>
+                        <p>Workshops</p>
+                        <p>Master class</p>
+                        <p>Capacitaciones</p>
                     </div>
-                    <div class="col-md-2 menu-link-footer">
-                        <a href="">Recetas</a>
-                        <a href="">Blog</a>
-                        <a href="">Contacto</a>
+                    <div class="col-md-2 col-lg-2 menu-link-footer">
+                        <a href="./mozzafiato.html">Mozzafiato</a>
+                        <a href="./blog.html">Blog</a>
+                        <a href="./contacto.html">Contacto</a>
                     </div>
                 </div>
-            </div>
-            <div class="container-createby-footer">
-                <p>Desarrollado por Facu, Mathi y Dani.</p>
+                <div class="container-footer-sponsor">
+                    <div class="row">
+                        <div class="imagenes-footer-sponsor">
+                            <img src="./imagenes/goodygroup.jpg" alt="Goody">
+                            <img src="./imagenes/eka.jpg" alt="Eka">
+                            <img src="./imagenes/acils.jpg" alt="Acil">
+                            <img src="./imagenes/loversolive.jpg" alt="Lovers">
+                            <img src="./imagenes/silcook.jpg" alt="Silcook">
+                            <img src="./imagenes/catanazapata.jpeg" alt="Catana Zapata">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -372,6 +483,11 @@
     <!-- Script de Bootstrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <!-- Animacines -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

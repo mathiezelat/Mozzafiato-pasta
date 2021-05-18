@@ -249,12 +249,15 @@ body {
 @keyframes arrow-move{
     0%{
         padding-bottom: 120px;
+        opacity: 0.1;
     }
     50%{
         padding-bottom: 70px;
+        opacity: 1;
     }
     100%{
         padding-bottom: 120px;
+        opacity: 0.1;
     }
 }
 @media screen and (max-width:991px) {

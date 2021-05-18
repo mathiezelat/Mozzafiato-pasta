@@ -192,7 +192,7 @@ body{
         overflow: visible;
     }
     .container-img-card-large{
-        height: 100%;
+        height: 400px;
     }
     .texto-titulo-card-large{
         width: 55vw;

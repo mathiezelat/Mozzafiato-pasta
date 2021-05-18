@@ -243,7 +243,7 @@
             margin-left: 2px;
         }
         .container-footer-sponsor{
-            margin-left: 12px;
+            margin-left: 2px;
         }
     }
     @media (max-width: 764px){
@@ -281,7 +281,8 @@
         }
         .imagenes-footer-sponsor{
             margin-top: 0px;
-            margin-left: 11px;
+            margin-bottom: -5px;
+            margin-left: 0px;
         }
         .menu-footer{
             width: 90%;

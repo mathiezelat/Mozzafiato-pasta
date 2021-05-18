@@ -189,8 +189,8 @@ body {
     padding-bottom: 100px;
     top: 0px;
     left: 0px;
-    animation: arrow-move 1.8s infinite ease;
-    -webkit-animation: arrow-move 1.8s infinite ease;
+    animation: arrow-move 2s infinite ease;
+    -webkit-animation: arrow-move 2s infinite ease;
 }
 .arrow-none{
     visibility: hidden;

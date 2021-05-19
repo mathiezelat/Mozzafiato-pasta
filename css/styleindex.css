@@ -24,6 +24,7 @@
     --animacion-cursos: none;
     --animacion-recetas: none;
     --animacion-notas: none;
+    --animacion-width: 0%;
 }
 body{
     overflow-x: hidden;
@@ -182,7 +183,7 @@ body{
 }
 @keyframes subrayado-reverse{
     0%{
-        width: 100%;
+        width: var(--animacion-width);
     }
     100%{
         width: 0%;

@@ -11,6 +11,7 @@ const subrayadoAnimacion = (valor)=>{
     const root = document.querySelector(":root");
     if(position<screen){
         root.style.setProperty(`--animacion-${valor}`, 'subrayado 2s ease both');
+        root.style.setProperty(`--animacion-width`, '100%');
     } else{
         root.style.setProperty(`--animacion-${valor}`, 'subrayado-reverse 2s ease both')
     }

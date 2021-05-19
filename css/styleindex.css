@@ -20,6 +20,10 @@
     --texto-card-color-current: #ed1943;
     --texto-titulos-color: #333;
     --texto-titulos-color-white: #f8f8f8;
+    --animacion-mozzafiato: none;
+    --animacion-cursos: none;
+    --animacion-recetas: none;
+    --animacion-notas: none;
 }
 body{
     overflow-x: hidden;
@@ -102,25 +106,59 @@ body{
     position: relative;
     display: inline-block;
 }
-.subrayado-color::before{
+
+#subrayado-color-mozzafiato::before{
     content: "";
-    width: 100%;
+    width: 0%;
     height: 20px;
     position:absolute;
     bottom: 0;
     z-index: -1;
-}
-.color-mozzafiato::before{
     background-color: #FF6A57;
+    animation: var(--animacion-mozzafiato);
+    -webkit-animation: var(--animacion-mozzafiato);
 }
-.color-cursos::before{
+#subrayado-color-cursos::before{
+    content: "";
+    width: 0%;
+    height: 20px;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
     background-color: #7EE5B0;
+    animation: var(--animacion-cursos);
+    -webkit-animation: var(--animacion-cursos);
 }
-.color-recetas::before{
+#subrayado-color-recetas::before{
+    content: "";
+    width: 0%;
+    height: 20px;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
     background-color: #FFB03B;
+    animation: var(--animacion-recetas);
+    -webkit-animation: var(--animacion-recetas);
 }
-.color-notas::before{
+#subrayado-color-notas::before{
+    content: "";
+    width: 0%;
+    height: 20px;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
     background-color: #FFB03B;
+    animation: var(--animacion-notas);
+    -webkit-animation: var(--animacion-notas);
+}
+
+@keyframes subrayado{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
 
 .letra-fondo{

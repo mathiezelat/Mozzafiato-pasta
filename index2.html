@@ -19,7 +19,7 @@
     <!-- Fin de Navbar y Footer -->
     <!-- Contenido de la página -->
     <link rel="stylesheet" href="./css/reutilizables.css" />
-    <link rel="stylesheet" href="./css/styleindex2.css" />
+    <link rel="stylesheet" href="./css/styleindex.css" />
     <link rel="stylesheet" href="./css/tipografias.css" />
 
     <!-- Fin Contenido de la página -->
@@ -87,7 +87,7 @@
             <div class="col-md-12 d-flex justify-content-center align-items-center">
                 <div class="column">
                     <div class="container-img-titulo">
-                        <img src="./imagenes-portadas/home-portada.JPEG"
+                        <img class="img-inicio-fondo" src="./imagenes-portadas/home-portada.JPEG"
                             alt="imagen-fondo">
                         <div class="texto-titulo-card-large">
                             <h1>Mi nombre es David Veltri</h1>
@@ -117,7 +117,7 @@
                                             <div class="texto-card-large d-flex justify-content-center align-items-center">
                                                 <div class="column">
                                                     <div class="letra-fondo">M</div>
-                                                    <h1 class="enfasis"><span class="subrayado-color color-mozzafiato">Mozzafiato</span></h1>
+                                                    <h1 class="enfasis"><span id="subrayado-color-mozzafiato">Mozzafiato</span></h1>
                                                     <p class="destacado">Te presento nuestro emprendimiento familiar donde no sólo accederás a nuestras pastas 100% artesanales, sino que también podrás contratar nuestro servicio de catering social o empresarial para tus eventos.</p>
                                                 </div>
                                             </div>
@@ -136,7 +136,7 @@
                                             <div class="texto-card-large d-flex justify-content-center align-items-center">
                                                 <div class="column">
                                                     <div class="letra-fondo letra-fondo-reverse">C</div>
-                                                    <h2>Cursos <span class="subrayado-color enfasis color-cursos">online</span></h2>
+                                                    <h2>Cursos <span class="enfasis" id="subrayado-color-cursos">online</span></h2>
                                                     <p class="destacado">A través de mis cursos podrás aprender lo mejor de mi gastronomía. No es necesario ser un profesional, pero sí tener mucha pasión.</p>
                                                 </div>
                                             </div>
@@ -167,7 +167,7 @@
                                             <div class="texto-card-large d-flex justify-content-center align-items-center">
                                                 <div class="column">
                                                     <div class="letra-fondo">R</div>
-                                                    <h2>Bienvenidos a mi <span class="subrayado-color enfasis color-recetas">recetario</span></h2>
+                                                    <h2>Bienvenidos a mi <span class="enfasis" id="subrayado-color-recetas">recetario</span></h2>
                                                     <p class="destacado">Conoce las verdaderas recetas tradicionales de la cocina italiana. Elaboremos juntos los más deliciosos platos que te harán un buen anfitrión.
                                                     </p>
                                                 </div>
@@ -187,7 +187,7 @@
                                             <div class="texto-card-large d-flex justify-content-center align-items-center">
                                                 <div class="column">
                                                     <div class="letra-fondo letra-fondo-reverse">B</div>
-                                                    <h2>Mis <span class="subrayado-color enfasis color-notas">notas</span></h2>
+                                                    <h2>Mis <span class="enfasis" id="subrayado-color-notas">notas</span></h2>
                                                     <p class="destacado">Conoce a través de mi blog la historia que se encuentra detrás de cada plato.
                                                         Compartiré contigo las experiencias obtenidas en mis viajes y todo el conocimiento obtenido a lo largo de mi carrera.</p>
                                                 </div>
@@ -294,6 +294,7 @@
     </script>
     <!-- Animacines -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
     <script>
         AOS.init();
     </script>

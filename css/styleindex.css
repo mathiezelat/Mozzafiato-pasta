@@ -206,6 +206,7 @@ body{
     font-weight: bold;
     font-size: 700px;
     line-height: 48px;
+    user-select: none;
 }
 .letra-fondo-reverse{
     justify-content: flex-start;

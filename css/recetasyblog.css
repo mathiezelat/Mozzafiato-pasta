@@ -124,6 +124,10 @@ body {
     align-items: center;
     margin-top: 24px;
 }
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
 .container-etiquetas-titulo p{
     padding: 2px 20px;
     border-radius: 5px;

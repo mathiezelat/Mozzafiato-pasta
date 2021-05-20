@@ -130,6 +130,8 @@
             font-family: var(--fuente-raleway);
             font-weight: 400;
             overflow: hidden;
+            position: relative;
+            z-index: 5;
         }
 .redes-footer {
     margin-top: 10px;

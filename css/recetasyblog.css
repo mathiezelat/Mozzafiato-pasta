@@ -224,7 +224,7 @@ body {
     justify-content: center;
 }
 .img-contain-article-2 img{
-    width: auto;
+    width: 90%;
     margin: auto;
     object-fit: contain;
     margin-bottom: 36px;

@@ -378,5 +378,8 @@ body{
     }
     .btn-cursos-mobile{
         visibility: visible;
+        width: 85%;
+        margin: auto;
+        margin-top: 20px;
     }
 }

@@ -176,6 +176,22 @@ body {
 
   color: #333333;
 }
+/* Capacitaciones */
+.capacitaciones {
+  padding-top: 88px;
+  margin: auto auto;
+  text-align: center;
+  width: 540px;
+  text-align: start;
+}
+.capacitaciones p{
+  padding-top: 12px;
+}
+
+
+/*  */
+
+
 
 .botones {
   margin-left: -100px;
@@ -239,7 +255,10 @@ body {
 /* modals*/
 
 
+.modal-content{
 
+  border-radius: 13px 13px 0px 0px;
+}
 .modal-header {
   display: flex;
   flex-direction: row;
@@ -251,7 +270,7 @@ body {
   left: 0px;
   top: 0px;
   background: #c20114;
-  border: 1px solid #ced4da;
+  border: 1px solid #CED4DA;
   box-sizing: border-box;
   border-radius: 12px 12px 0px 0px;
   flex: none;
@@ -328,6 +347,9 @@ body {
   }
 }
 @media (max-width: 764px) and (min-width: 576px) {
+  .capacitaciones{
+  margin-top: -300px !important;
+  }
   .box {
     display: grid;
     grid-template-columns: 1fr;
@@ -349,16 +371,7 @@ body {
 }
 
 @media (max-width: 576px) and (min-width: 0px) {
-  .workshoptext{
-    margin-top: -250px;
-  }
- main h3{
-text-align: center;
-}
-main p{
-  text-align: center;
-  text-align: start;
-}
+
   .box {
     display: grid;
     grid-template-columns: 1fr;

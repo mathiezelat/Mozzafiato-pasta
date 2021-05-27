@@ -356,7 +356,7 @@ object-fit: cover;
   }
 }
 
-@media (max-width: 576px) and (min-width: 375px) {
+@media (max-width: 576px) {
   .modal-content{
 
     border-radius: 13px 13px 0px 0px;

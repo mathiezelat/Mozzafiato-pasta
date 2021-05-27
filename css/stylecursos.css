@@ -357,6 +357,22 @@ object-fit: cover;
 }
 
 @media (max-width: 576px) and (min-width: 375px) {
+  .modal-content{
+
+    border-radius: 13px 13px 0px 0px;
+  }
+  .modal {
+    width: 90vw;
+  }
+  .modal-header{
+    width: 90vw;
+  }
+  .modal-footer{
+    width: 90vw;
+  }
+  .modal-content{
+    width: 90vw;
+  }
   .texto-titulo-card-large {
     width: 300px;
   }

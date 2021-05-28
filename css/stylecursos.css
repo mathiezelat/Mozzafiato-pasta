@@ -241,6 +241,13 @@ object-fit: cover;
   flex-grow: 0;
   margin: 0px 0px;
 }
+  /*  */
+
+  .container-titulo-page{
+    width: 100vw;
+    overflow: hidden;
+  }
+
 
 /* Responsive */
 

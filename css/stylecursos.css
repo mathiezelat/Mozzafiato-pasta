@@ -25,28 +25,23 @@ body {
 }
 /* Fin de Variables */
 
-
-
 .container-img-header {
-    margin-top: 0px;
-    width: 100vw;
-    height: 95vh;
-    position: relative;
-    overflow: hidden;
-    pointer-events: none;
-    user-select: none;
+  margin-top: 0px;
+  width: 100vw;
+  height: 95vh;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
 }
 
 .container-img-header img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
-
 /* Empieza el workshop y capacitaciones */
-
 
 .workshoptext {
   padding-top: 88px;
@@ -88,7 +83,7 @@ object-fit: cover;
   width: 540px;
   text-align: start;
 }
-.capacitaciones h3{
+.capacitaciones h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -99,7 +94,7 @@ object-fit: cover;
 
   color: #333333;
 }
-.capacitaciones p{
+.capacitaciones p {
   font-family: Raleway;
   font-style: normal;
   font-weight: 600;
@@ -126,7 +121,7 @@ object-fit: cover;
   height: 50px;
 }
 
-.card {  
+.card {
   width: 350px !important;
   margin: auto auto;
   margin-top: 88px;
@@ -162,7 +157,7 @@ object-fit: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 48px 48px;
+
   grid-template-areas:
     ". . ."
     ". . .";
@@ -173,9 +168,7 @@ object-fit: cover;
 }
 /* modals*/
 
-
-.modal-content{
-
+.modal-content {
   border-radius: 13px 13px 0px 0px;
 }
 .modal-header {
@@ -189,7 +182,7 @@ object-fit: cover;
   left: 0px;
   top: 0px;
   background: #c20114;
-  border: 1px solid #CED4DA;
+  border: 1px solid #ced4da;
   box-sizing: border-box;
   border-radius: 12px 12px 0px 0px;
   flex: none;
@@ -208,11 +201,9 @@ object-fit: cover;
   color: #f8f8f8;
 }
 
-.modal-content{
+.modal-content {
   width: 540px;
 }
-
-
 
 .modal-footer {
   display: flex;
@@ -241,20 +232,18 @@ object-fit: cover;
   flex-grow: 0;
   margin: 0px 0px;
 }
-  /*  */
+/*  */
 
-  .container-titulo-page{
-    width: 100vw;
-    overflow: hidden;
-  }
-
+.container-titulo-page {
+  width: 100vw;
+  overflow: hidden;
+}
 
 /* Responsive */
 
- @media screen and (max-width: 1920px) and (min-width: 1401px){
-
-        }
-@media screen and (max-width: 1400px) and (min-width: 1100px){
+@media screen and (max-width: 1920px) and (min-width: 1401px) {
+}
+@media screen and (max-width: 1400px) and (min-width: 1100px) {
   .container-card-large {
     width: 85vw;
     min-height: 400px;
@@ -267,13 +256,12 @@ object-fit: cover;
     display: flex;
     justify-content: space-evenly;
   }
-  .capacitaciones{
+  .capacitaciones {
     margin-top: 88px !important;
   }
-  } 
+}
 
 @media (max-width: 1100px) and (min-width: 764px) {
-    
   .texto-titulo-card-large {
     width: 300px;
   }
@@ -293,7 +281,6 @@ object-fit: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    gap: 48px 48px;
     grid-template-areas:
       ". ."
       ". ."
@@ -304,7 +291,7 @@ object-fit: cover;
   }
 }
 @media (max-width: 764px) and (min-width: 576px) {
-  .capacitaciones{
+  .capacitaciones {
     margin-top: -180px !important;
   }
   .texto-titulo-card-large {
@@ -346,7 +333,7 @@ object-fit: cover;
   .box {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 48px 48px;
+
     grid-template-areas:
       "."
       "."
@@ -364,20 +351,19 @@ object-fit: cover;
 }
 
 @media (max-width: 576px) {
-  .modal-content{
-
+  .modal-content {
     border-radius: 13px 13px 0px 0px;
   }
   .modal {
     width: 90vw;
   }
-  .modal-header{
+  .modal-header {
     width: 90vw;
   }
-  .modal-footer{
+  .modal-footer {
     width: 90vw;
   }
-  .modal-content{
+  .modal-content {
     width: 90vw;
   }
   .texto-titulo-card-large {
@@ -413,27 +399,25 @@ object-fit: cover;
   .texto-card-large {
     height: 400px;
   }
-  .workshoptext h3{ 
+  .workshoptext h3 {
     width: 30%;
-
   }
-  .workshoptext p{ 
+  .workshoptext p {
     width: 90vw;
-
   }
-  .capacitaciones{
+  .capacitaciones {
     margin-top: -180px;
   }
   .capacitaciones h3 {
     width: 30%;
-   }
-   .capacitaciones p {
-     width: 90vw;
-   }
+  }
+  .capacitaciones p {
+    width: 90vw;
+  }
   .box {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 48px 48px;
+
     grid-template-areas:
       "."
       "."
@@ -451,15 +435,9 @@ object-fit: cover;
 }
 
 @media (max-width: 375px) and (min-width: 0px) {
-
-
-
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1100px) {
-
 }
-
-
 
 /* Fin responsive  */
